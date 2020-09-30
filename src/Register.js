@@ -74,13 +74,13 @@ function Register() {
                   className="btn btn-lg btn-google btn-block text-uppercase"
                   type="submit"
                 >
-                  <i className="fab fa-google"></i> Sign up with Google
+                  <i className="fa fa-google"></i> Sign up with Google
                 </button>
                 <button
                   className="btn btn-lg btn-facebook btn-block text-uppercase"
                   type="submit"
                 >
-                  <i className="fab fa-facebook r-2"></i> Sign up with Facebook
+                  <i className="fa fa-facebook r-2"></i> Sign up with Facebook
                 </button>
               </form>
             </div>
