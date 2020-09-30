@@ -66,9 +66,12 @@ function Register() {
                     Register
                   </button>
                 </Link>
-                <Link to="/login">
-                  <p className="d-block text-center mt-2 small">Log In</p>
-                </Link>
+                <div className="d-flex justify-content-center text-center mt-2">
+                  Already have an account?
+                  <Link to="/login">
+                    <p className="pl-2">Log In.</p>
+                  </Link>
+                </div>
                 <hr className="my-4" />
                 <button
                   className="btn btn-lg btn-google btn-block text-uppercase"

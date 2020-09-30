@@ -6,8 +6,8 @@
 body,
 html {
   height: 100%;
-  background: #007bff;
-  background: linear-gradient(to right, #0062e6, #33aeff);
+  background: #cb53fa;
+  background: linear-gradient(to right, #7b32cf, #545fc7);
 }
 
 .container,
@@ -17,7 +17,6 @@ html {
 
 .card-signin {
   border: 0;
-  text-align: center;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -25,8 +24,9 @@ html {
 
 .card-signin .card-title {
   margin-bottom: 2rem;
-  font-weight: 300;
-  font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 2rem;
+  font-style: italic;
 }
 
 .card-signin .card-img-left {

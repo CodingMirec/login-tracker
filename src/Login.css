@@ -1,9 +1,11 @@
-.card-signin {
-  height: 40rem;
+.login__height {
+  height: 42.4rem;
 }
 
-.card-signin .card-title {
-  margin-bottom: 2rem;
-  font-weight: 300;
-  font-size: 1.5rem;
+.login__input {
+  margin-bottom: 1.5rem;
+}
+
+.forget__password {
+  margin-top: -0.8rem;
 }
