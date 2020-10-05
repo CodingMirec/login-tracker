@@ -9,10 +9,22 @@ import Sidenav from "./Sidenav";
 
 const items = [
   {
-    name: "time_tracker",
+    name: "user",
+    icon: "fa fa-user-circle-o",
+    label: " Kathrin McKenzie",
+    path: "/tracker",
+  },
+  {
+    name: "tracker",
     icon: "fa fa-home",
     label: " Time Tracker",
-    path: "/",
+    path: "/tracker",
+  },
+  {
+    name: "dashboard ",
+    icon: "fa fa-bar-chart",
+    label: " Dashboard",
+    path: "/dashboard",
   },
   {
     name: "projects",
@@ -45,7 +57,22 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
-          <Route path="/">
+          <Route path="/tracker">
+            <Sidenav items={items} />
+          </Route>
+          <Route path="/dashboard">
+            <Sidenav items={items} />
+            <h1>dashboard</h1>
+          </Route>
+          <Route path="/projects">
+            <Sidenav items={items} />
+            <h1>projects</h1>
+          </Route>
+          <Route path="/team">
+            <Sidenav items={items} />
+            <h1>team</h1>
+          </Route>
+          <Route path="/settings">
             <Sidenav items={items} />
           </Route>
         </Switch>

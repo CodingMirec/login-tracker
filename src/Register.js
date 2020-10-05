@@ -58,7 +58,7 @@ function Register() {
                   />
                   <label htmlFor="inputConfirmPassword">Confirm password</label>
                 </div>
-                <Link to="/">
+                <Link to="/tracker">
                   <button
                     className="btn btn-lg btn-primary btn-block text-uppercase"
                     type="submit"

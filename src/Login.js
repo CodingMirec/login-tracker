@@ -51,7 +51,7 @@ function Login() {
                   </label>
                 </div>
                 <hr className="my-4" />
-                <Link to="/">
+                <Link to="/tracker">
                   <button
                     className="btn btn-lg btn-primary btn-block text-uppercase"
                     type="submit"
