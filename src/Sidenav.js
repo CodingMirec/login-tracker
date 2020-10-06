@@ -6,7 +6,7 @@ import "./Sidenav.css";
 
 function Sidenav({ items }) {
   return (
-    <div className="sidenav">
+    <div className="sidenav shadow-lg">
       <ul className="nav flex-column">
         <div className="sidenav__brand pt-4 pb-2 text-center">
           <h1>

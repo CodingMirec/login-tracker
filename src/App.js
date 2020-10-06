@@ -6,13 +6,14 @@ import "./App.css";
 import Register from "./Register";
 import Login from "./Login";
 import Sidenav from "./Sidenav";
+import Tracker from "./Tracker";
 
 const items = [
   {
     name: "user",
     icon: "fa fa-user-circle-o",
     label: " Kathrin McKenzie",
-    path: "/tracker",
+    path: "/user",
   },
   {
     name: "tracker",
@@ -46,6 +47,12 @@ const items = [
   },
 ];
 
+const projects = [
+  {
+    name: "",
+  },
+];
+
 function App() {
   return (
     <BrowserRouter>
@@ -57,7 +64,12 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
+          <Route path="/user">
+            <Sidenav items={items} />
+            <h1>user</h1>
+          </Route>
           <Route path="/tracker">
+            <Tracker projects={projects} />
             <Sidenav items={items} />
           </Route>
           <Route path="/dashboard">
