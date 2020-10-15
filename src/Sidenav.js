@@ -10,7 +10,7 @@ function Sidenav({ items }) {
       <ul className="nav flex-column">
         <div className="sidenav__brand pt-4 pb-2 text-center">
           <h1>
-            <Link to="/">Time Tracker</Link>
+            <Link to="/tracker">Time Tracker</Link>
           </h1>
         </div>
         <hr className="sidenav__hr" />
